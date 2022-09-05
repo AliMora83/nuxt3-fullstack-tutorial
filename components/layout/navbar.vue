@@ -25,28 +25,28 @@ const setColorTheme = (newTheme: Theme) => {
         </div>
          <nuxt-link to="/">
             <span class="sr-only">Workflow</span>
-            <img class="h-24 w-auto transition duration-500 scale-50 hover:scale-110" src="/img/logo_clear_fsj.png"/>
+            <img class="h-24 w-auto transition duration-500 scale-50 hover:scale-110" src="/img/mtn-logo-footer.svg"/>
           </nuxt-link>
         <nav class="hidden md:flex space-x-10">
 
           <nuxt-link to="/subscribe">
             <span class="text-base font-medium text-gray-500 hover:text-gray-900">
-              Premium Membership
+              Membership
             </span>
           </nuxt-link>
-          <nuxt-link to="/categories">
+          <nuxt-link to="/task">
             <span class="text-base font-medium text-gray-500 hover:text-gray-900">
-              Videos
+              Task
             </span>
           </nuxt-link>
-          <nuxt-link to="/state-examples">
+          <nuxt-link to="/profile">
             <span class="text-base font-medium text-gray-500 hover:text-gray-900">
-              State in Nuxt
+              Profile
             </span>
           </nuxt-link>
-          <nuxt-link to="/ask-jack/search">
+          <nuxt-link to="/report">
             <span class="text-base font-medium text-gray-500 hover:text-gray-900">
-              Ask Jack
+              Report
             </span>
           </nuxt-link>
           <nuxt-link to="/dashboard">
